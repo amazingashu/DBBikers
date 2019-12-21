@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DBBikers</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">Bikers</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_user_profile">UserProfile</string>
+</resources>

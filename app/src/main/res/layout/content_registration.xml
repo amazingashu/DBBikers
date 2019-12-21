@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Registration"
+    tools:showIn="@layout/activity_registration">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="15dp">
+    <!--    <TableRow  android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="2dp">
+            <TextView
+                android:textSize="30dp"
+                android:textColor="#fff"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+
+                android:text="Register" />
+
+
+        </TableRow>
+-->
+
+        <TableRow  android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:ems="10"
+                android:layout_weight="1"
+                android:inputType="textPersonName"
+                android:textColorHint="#ffffff"
+                android:drawablePadding="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="20dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:hint="Your Full Name"
+                />
+
+        </TableRow>
+
+
+        <TableRow  android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="10dp">
+
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:ems="10"
+                android:layout_weight="1"
+                android:textColorHint="#ffffff"
+                android:inputType="textEmailAddress"
+
+                android:drawablePadding="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="20dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:hint="Your Email Id"
+                />
+
+        </TableRow>
+
+        <TableRow  android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="10dp">
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/spnCountry"
+                android:textColorHint="#ffffff"
+                android:drawablePadding="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="20dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+
+                ></Spinner>
+
+        </TableRow>
+
+
+        <TableRow  android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/etPhone"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:ems="10"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:textColorHint="#ffffff"
+                android:drawablePadding="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="20dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:hint="Mobile No. with Country Code" />
+
+        </TableRow>
+
+        <TableRow  android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="10dp">
+
+
+            <EditText
+                android:id="@+id/etNewPassword"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:ems="10"
+                android:layout_weight="1"
+                android:inputType="textPassword"
+                android:textColorHint="#ffffff"
+                android:drawablePadding="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="20dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:hint="Create New Password" />
+
+        </TableRow>
+
+
+        <TableRow  android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="18dp"
+                android:inputType="textCapWords"
+                android:background="#005d25"
+                android:textColor="#ffffff"
+                android:text="Register" />
+
+        </TableRow>
+
+        <TableRow  android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnSignIn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="18dp"
+                android:inputType="textCapWords"
+                android:textColor="#ffffff"
+                android:background="#005d5d"
+                android:text="Login" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
